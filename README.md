@@ -8,10 +8,7 @@ with [kevin.garden](https://github.com/inchkev/garden).
 
 ## guide
 
-in the root directory, run `npm run cultivate`. the cultivate script reads
-all the files in your directory and traverses directories up to a certain depth,
-and creates an `index.html` file displaying the contents of every directory it
-visits.
+in the root directory, run `npm run cultivate`.
 
 ```console
 $ npm run cultivate
@@ -19,6 +16,10 @@ how do we turn a directory into a garden?
 usage:      node cultivate.js DIR
 options:    -h, --help       print help
 ```
+
+the cultivate script reads all the files in your directory and traverses
+directories up to a certain depth, and creates an `index.html` file displaying
+the contents of every directory it visits.
 
 there are two ways the script can display a directory: *natural* and *formal*.
 - *formal* is the default. in the formal arrangement, files are sorted
