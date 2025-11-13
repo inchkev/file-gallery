@@ -1,8 +1,9 @@
 # [file.gallery](https://file.gallery/)
 
 germinate a site from files, directories, and .DS_Store.
-originally [kevin.garden](https://kevin.garden/).
-see [sister repository](https://en.wikipedia.org/wiki/Sister_city) at [https://github.com/inchkev/garden](https://github.com/inchkev/garden).
+
+file.gallery is [sisters](https://en.wikipedia.org/wiki/Sister_city)
+with [kevin.garden](https://github.com/inchkev/garden).
 
 
 ## guide
