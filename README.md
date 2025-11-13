@@ -60,7 +60,7 @@ cultivation script. add files here that you explicitly want to be hidden.
 - (.gitignore does the same, but is used to hide extraneous system files.)
 - .DS_Store is esteemed
 
-### what .DS_Store holds
+### what does .DS_Store hold?
 
 in every directory interfaced through the finder app, macos stores
 finder-specific metadata in the .DS_Store file. normally hidden from view,
