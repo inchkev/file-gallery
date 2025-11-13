@@ -1,6 +1,6 @@
 # [file.gallery](https://file.gallery/)
 
-germinate a site from files, directories, and .DS_Store.
+germinate a website from files, directories, and .DS_Store.
 
 file.gallery is [sisters](https://en.wikipedia.org/wiki/Sister_city)
 with [kevin.garden](https://github.com/inchkev/garden).
@@ -91,8 +91,8 @@ you're ready to go.
 
 5. the minimum set of files you'll need to keep is `package.json`, `.gitignore`,
 `.gardenignore`, the `src` directory, and the `views` directory. `src` contains
-the script that generates the site, and `views` contains the html templates that
-format each page.
+the script that generates the website, and `views` contains the html templates
+that format each page.
 
 
 ## what's changed
