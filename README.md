@@ -38,7 +38,7 @@ add files, move them around, run `npm run cultivate`, rinse and repeat.
 are displayed using those tags. supported file extensions:
   - *images*: jpeg, png, webp, gif, apng, svg, bmp, ico
   - *videos*: mp4, webm
-  - *audio*: mp4, wav, ogg, m4a
+  - *audio*: mp3, wav, ogg, m4a
 - markdown (md) files are parsed into pretty html.
 - all other file types are shown as direct links with no display formatting.
 - a file with no extension has its contents shown. these are good to use as
