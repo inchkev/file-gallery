@@ -119,9 +119,16 @@ is set to 3. you can change this directly in the script
 
 ## license
 
-- `src/` — `parse.py` by [Thomas Zhu](https://github.com/hanwenzhu) is licensed under the MIT license. all other source code (in `src/`) is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+- `src/` — `cultivate.js` is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
   - if modified, indicate it by adding it to the header comment, e.g. "modified by \[name\]: add jpeg xl support"
+  - the `LICENSE` file only needs to be displayed on the website if `cultivate.js` (or the entire `src/` directory) is published as well, as is the case currently. if you add the `src/` directory to the `.gardenignore` list, you may hide `LICENSE` as well.
+- `src/` — `parse.py` by [Thomas Zhu](https://github.com/hanwenzhu) is licensed under the MIT license.
 - `views/` — all templates and their styles are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
   - if modified, indicate it in the attribution, e.g. "modified by \[name\]"
+- the license for site content (published images, text, etc) should be described on the website itself.
 
-for published websites, CC attribution only in the html source is sufficient. i'd appreciate a link to https://kevin.garden/ or https://file.gallery/ in the attribution. a visible reference on the website itself would be nice too, although optional. thank you!
+### attribution
+
+for published websites, having the CC (creative commons) attribution only in the html source is sufficient. it's already there in the bottom of the .ejs template files. i'd also appreciate if the link to either https://kevin.garden/ or https://file.gallery/ were kept in the attribution text. a visible reference on the website itself would be nice too, although optional.
+
+thank you!
