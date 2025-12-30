@@ -23,10 +23,10 @@ the contents of every directory it visits.
 
 there are two ways the script can display a directory: *natural* and *formal*.
 - *formal* is the default. in the formal arrangement, files are sorted
-lexicographically by file name and displayed in a tight grid.
+lexicographically by file name and arranged in a tight grid.
 - *natural* arranges files by their "physical" location (as shown in the finder
-directory). to allow this, the directory must be set to "Sort By > None", *and*
-you must have moved every file at least once.
+directory). to allow this, the directory must be set to "Sort By > None" and
+you must have moved _every_ visible file at least once.
 
 add files, move them around, run `npm run cultivate`, rinse and repeat.
 
@@ -129,6 +129,10 @@ is set to 3. you can change this directly in the script
 
 ### attribution
 
-for published websites, having the CC (creative commons) attribution only in the html source is sufficient. it's already there in the bottom of the .ejs template files. i'd also appreciate if the link to either https://kevin.garden/ or https://file.gallery/ were kept in the attribution text. a visible reference on the website itself would be nice too, although optional.
+for published websites, having the CC (creative commons) attribution only in the
+html source is sufficient. it's already there in the bottom of the .ejs template
+files. i'd also appreciate if the link to either https://kevin.garden/ or
+https://file.gallery/ were kept in the attribution text. a visible reference on
+the website itself would be nice too, although optional.
 
 thank you!
