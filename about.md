@@ -12,3 +12,4 @@ directory
 
 - [kevin.garden](https://kevin.garden)
 - [ryanyan.garden](https://ryanyan.garden)
+- [jakewel.ch](https://jakewel.ch/)
