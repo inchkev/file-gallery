@@ -129,10 +129,9 @@ is set to 3. you can change this directly in the script
 
 ### attribution
 
-for published websites, having the CC (creative commons) attribution only in the
+for published websites, having the creative commons attribution _only_ in the
 html source is sufficient. it's already there in the bottom of the .ejs template
-files. i'd also appreciate if the link to either https://kevin.garden/ or
-https://file.gallery/ were kept in the attribution text. a visible reference on
-the website itself would be nice too, although optional.
+files. i'd also appreciate it if the link to https://kevin.garden/ or
+https://file.gallery/ were kept in the attribution text :\)
 
 thank you!
