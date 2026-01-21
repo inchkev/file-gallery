@@ -121,7 +121,7 @@ is set to 3. you can change this directly in the script
 
 - `src/` — `cultivate.js` is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
   - if modified, indicate it by adding it to the header comment, e.g. "modified by \[name\]: add jpeg xl support"
-  - the `LICENSE` file only needs to be displayed on the website if `cultivate.js` (or the entire `src/` directory) is published as well, as is the case currently. if you add the `src/` directory to the `.gardenignore` list, you may hide `LICENSE` as well.
+  - the `LICENSE` file is only for the code. publish it on your website if `cultivate.js` (or the entire `src/` directory) is published as well, as is the case currently. if you hide the `src/` directory (e.g. using `.gardenignore`), you should hide `LICENSE` as well.
 - `src/` — `parse.py` by [Thomas Zhu](https://github.com/hanwenzhu) is licensed under the MIT license.
 - `views/` — all templates and their styles are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
   - if modified, indicate it in the attribution, e.g. "modified by \[name\]"
