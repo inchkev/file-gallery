@@ -97,6 +97,7 @@ that format each page.
 
 ## what's changed
 
+- 1/25/26: set max-width to 30em
 - 4/26/25:
   - performance enhancements, parallelize async operations
   - sort order is now name localeAware, might affect some display orders.

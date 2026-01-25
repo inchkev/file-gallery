@@ -12,6 +12,7 @@
 
   <style>
     html, body {
+      height: 100%;
       margin: 0;
       text-size-adjust: none;
       -webkit-text-size-adjust: 100%;
@@ -22,21 +23,30 @@
       overflow-x: scroll;
     }
     main {
+      max-width: 100%;
       box-sizing: border-box;
+      align-items: center;
       padding: 1.5em;
     }
-    .item {
-      display: inline-block;
-      padding: 0em 1em;
-      margin: 1em 0;
-      border: 1px solid rgba(0,0,0,.1);
+    .plantbed {
+      width: 0;
+      position: relative;
     }
-    .item img, .item video {
-      width: auto; height: auto;
-      max-width: 28em; max-height: 26em;
+    .item {
+      display: block;
+      position: absolute;
+      padding: 0em 1em;
+      outline: 1px solid rgba(0,0,0,0.1);
+      max-width: 30em;
+    }
+    .item * {
+      width: max-content;
+    }
+    .item img, .item video, .item audio {
+      max-width: 18em;
+      height: auto;
     }
     .item audio {
-      max-width: 18em;
       height: 3em;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -64,12 +74,12 @@
   <main>
     <h3><a href="..">back</a></h3>
     <p>src/</p>
-    
-    <div class="plantbed">
-      <div class="item">
+
+    <div class="plantbed" style="left: max(0px, calc(50% - 55px - 9em))">
+      <div class="item" style="top: 50px; left: 110px">
         <h3><a href="cultivate.js">cultivate.js</a> (13.6kB)</h3>
       </div>
-      <div class="item">
+      <div class="item" style="top: 50px; left: 0px">
         <h3><a href="DS_Store-parser/">DS_Store-parser/</a> (3 items)</h3>
       </div>
     </div>
@@ -77,9 +87,9 @@
   </main>
 </body>
 <!--
-kevin.garden (formal template) by Kevin Chen, 2023-2025
+kevin.garden (natural template) by Kevin Chen, 2023-26
 licensed under CC BY-NC 4.0: https://creativecommons.org/licenses/by-nc/4.0/
-please link to https://kevin.garden/ or https://file.gallery/, if possible
+please link to https://kevin.garden/ or https://file.gallery/, if possible.
 attribution only in the html source is sufficient. non-commercial use only :)
 -->
 </html>
