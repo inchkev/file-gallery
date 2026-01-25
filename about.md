@@ -14,3 +14,4 @@ directory
 - [ryanyan.garden](https://ryanyan.garden)
 - [jakewel.ch](https://jakewel.ch/)
 - [moonlit.exposed](https://moonlit.exposed/)
+- [tilde.kiki.directory](https://tilde.kiki.directory/)
