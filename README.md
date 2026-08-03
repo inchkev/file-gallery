@@ -110,8 +110,9 @@ the script that generates the website, and `views` contains the html templates
 that format each page.
 
 
-## what's changed
+## changelog
 
+- 8/2/2026: standardize max width/height for natural and formal layouts
 - 1/25/26: set max-width to 30em
 - 4/26/25:
   - performance enhancements, parallelize async operations
